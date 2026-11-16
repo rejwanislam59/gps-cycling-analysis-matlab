@@ -20,13 +20,13 @@ This public demonstration recreates that **type of workflow independently**, usi
 
 ## Example visualisations
 
-These figures are **synthetic previews**, generated separately from the illustrative GPX data for documentation. They are **not the original ENGG100 assessment results**. Running the MATLAB script exports its own set of six figures.
+These figures are **SVG previews generated directly from the included synthetic GPX data** for documentation (not MATLAB screenshots). They are **not the original ENGG100 assessment results**. Running the MATLAB script exports its own set of six figures.
 
-![Synthetic 3D route](results/synthetic_3d_route.png)
+![Synthetic 3D route](results/synthetic_3d_route.svg)
 
-![Synthetic elevation and gradient](results/synthetic_elevation_grade.png)
+![Synthetic elevation and gradient](results/synthetic_elevation_grade.svg)
 
-![Synthetic cycling power and energy](results/synthetic_power_energy.png)
+![Synthetic cycling power and energy](results/synthetic_power_energy.svg)
 
 ## Contents
 
@@ -36,15 +36,16 @@ These figures are **synthetic previews**, generated separately from the illustra
 ├── data/
 │   └── synthetic_ride.gpx    # Fictitious GPX points only
 ├── results/
-│   ├── synthetic_3d_route.png
-│   ├── synthetic_elevation_grade.png
-│   └── synthetic_power_energy.png
+│   ├── synthetic_3d_route.svg
+│   ├── synthetic_elevation_grade.svg
+│   ├── synthetic_power_energy.svg
+│   └── README.md
 └── docs/
+    ├── CREDITS_AND_AI_USE.md
     ├── METHODOLOGY.md
     ├── LIMITATIONS.md
     ├── GITHUB_UPLOAD_GUIDE.md
-    ├── PUBLISHING_CHECKLIST.md
-    └── LINKEDIN_POST.md
+    └── PUBLISHING_CHECKLIST.md
 ```
 
 ## How to run it
@@ -70,7 +71,7 @@ While this is a cycling-data project rather than a civil design task, the same f
 - Figures are for education and illustration, **not engineering design or safety decisions**.
 - The original group code, course brief, and raw personal Strava GPX files are **intentionally excluded**.
 
-See [Methodology](docs/METHODOLOGY.md), [Limitations](docs/LIMITATIONS.md) and the [Publishing Checklist](docs/PUBLISHING_CHECKLIST.md).
+See [Methodology](docs/METHODOLOGY.md), [Limitations](docs/LIMITATIONS.md), [Credits and AI Use](docs/CREDITS_AND_AI_USE.md) and the [Publishing Checklist](docs/PUBLISHING_CHECKLIST.md).
 
 ## Acknowledgement
 

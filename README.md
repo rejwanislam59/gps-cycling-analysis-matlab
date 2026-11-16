@@ -49,8 +49,7 @@ The `synthetic_*.svg` figures and corresponding `synthetic_*.png` files are illu
     ├── CREDITS_AND_AI_USE.md
     ├── METHODOLOGY.md
     ├── LIMITATIONS.md
-    ├── GITHUB_UPLOAD_GUIDE.md
-    └── PUBLISHING_CHECKLIST.md
+    └── GITHUB_UPLOAD_GUIDE.md
 ```
 
 ## How to run it
@@ -76,7 +75,7 @@ While this is a cycling-data project rather than a civil design task, the same f
 - Figures are for education and illustration, **not engineering design or safety decisions**.
 - The original group code, course brief, and raw personal Strava GPX files are **intentionally excluded**.
 
-See [Methodology](docs/METHODOLOGY.md), [Limitations](docs/LIMITATIONS.md), [Credits and AI Use](docs/CREDITS_AND_AI_USE.md) and the [Publishing Checklist](docs/PUBLISHING_CHECKLIST.md).
+See [Methodology](docs/METHODOLOGY.md), [Limitations](docs/LIMITATIONS.md) and [Credits and AI Use](docs/CREDITS_AND_AI_USE.md).
 
 ## Acknowledgement
 

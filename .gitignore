@@ -1,0 +1,16 @@
+# MATLAB autosave and cache
+*.asv
+*.autosave
+*.mlx.autosave
+slprj/
+*.slxc
+
+# Keep personal and original assessed materials out of any public repo
+MTB_*_Strava_Data*.gpx
+Milestone*.m
+*Major Project Brief*.pdf
+/private/
+/originals/
+/raw_gpx_PRIVATE/
+
+# Generated figures from the MATLAB demonstration may be committed selectively

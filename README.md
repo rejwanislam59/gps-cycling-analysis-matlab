@@ -2,7 +2,7 @@
 
 **An individual, post-course educational demonstration inspired by an ENGG100 (Engineering Computing and Analysis) group project at the University of Wollongong, 2026.**
 
-> **Disclosure:** This repository is **not** our assessed group source code. It is a separately written portfolio demonstration with entirely **synthetic GPS data**, prepared after the group activity. The original university assignment and graphs were a collaboration; credit belongs to the group. The demo was prepared with AI assistance and should be verified in MATLAB before publication.
+> **Disclosure:** This repository is **not** our assessed group source code. It is a separately written portfolio demonstration with entirely **synthetic GPS data**, prepared after the group activity. The original university assignment and graphs were a collaboration; credit belongs to the group.
 
 ## Project overview
 
@@ -32,7 +32,7 @@ The other exported figures are [cumulative distance](results/matlab_03_distance.
 
 ## Additional synthetic previews
 
-The `synthetic_*.svg` figures and corresponding `synthetic_*.png` files are illustrative previews produced separately from MATLAB. Do not confuse them with the six MATLAB-exported graphs or the original ENGG100 assessment outputs.
+The `synthetic_*.svg` figures and corresponding `synthetic_*.png` files are illustrative previews produced separately from MATLAB.
 
 ## Contents
 
@@ -59,7 +59,7 @@ The `synthetic_*.svg` figures and corresponding `synthetic_*.png` files are illu
 3. Run `run_cycling_demo.m`.
 4. Inspect the six MATLAB figures saved in `results/`, plus the printed distance/energy estimates.
 
-The main script uses MATLAB's built-in functions and is intended not to require specialist toolboxes. **The project owner has run the script in MATLAB**, as shown in their Command Window screenshot, and committed its six PNG figures. This assistant has not independently executed MATLAB or visually audited all exported images; numerical/geospatial checks were previously performed with Python.
+The main script uses MATLAB's built-in functions and is intended not to require specialist toolboxes. **The project owner has run the script in MATLAB**, as shown in their Command Window screenshot, and committed its six PNG figures. Numerical/geospatial checks were also performed using Python.
 
 The example parser expects conventional GPX track-point tags with latitude, longitude, elevation and UTC timestamps. It is not a full XML parser, and other GPX exporters may format data differently.
 
@@ -79,8 +79,8 @@ See [Methodology](docs/METHODOLOGY.md), [Limitations](docs/LIMITATIONS.md) and [
 
 ## Acknowledgement
 
-This demonstration is inspired by collaborative work for the **ENGG100 Major Project (2026)** at UOW. The original milestone deliverables were developed by a student team, and should not be attributed to one person. The code in *this* repository is an independent reconstruction with AI assistance, not a claim to sole authorship of the original submission. Teammates can be credited by name once they are comfortable with that attribution.
+This demonstration is inspired by collaborative work for the **ENGG100 Major Project (2026)** at UOW. The original milestone deliverables were developed by a student team, and should not be attributed to one person. The code in *this* repository is an independent reconstruction with AI assistance, not a claim to sole authorship of the original submission.
 
 ## Licensing and reuse
 
-**No open-source licence is granted by default.** A licence can be selected later for the independently written demo once its publication rights and course policy have been confirmed. Do not add the original group submission, UOW teaching materials, or real GPX recordings without appropriate permissions.
+**No open-source licence is granted by default.** A licence can be selected later for the independently written demo once its publication rights and course policy have been confirmed.

@@ -18,15 +18,21 @@ This public demonstration recreates that **type of workflow independently**, usi
 | 2 — Kinematics | Convert WGS84 coordinates to UTM Easting/Northing and compute distance, speed and grade | Geospatial systems, numerical calculations, plotting |
 | 3 — Dynamics | Estimate resistance forces, cycling power and cumulative energy | Engineering mechanics, model assumptions, trapezoidal integration |
 
-## Example visualisations
+## MATLAB-generated results — synthetic dataset
 
-These figures are **SVG previews generated directly from the included synthetic GPX data** for documentation (not MATLAB screenshots). They are **not the original ENGG100 assessment results**. Running the MATLAB script exports its own set of six figures.
+The project owner ran `run_cycling_demo.m` in MATLAB and uploaded the six resulting PNG graphs. The shared MATLAB Command Window screenshot reported **660 track points, UTM zone 53, a 4.073 km 3D route, and 109.7 kJ of modelled energy**. These values are from a **fictitious route**, not real cyclists or the original group's assessed work. Figure contents have not been independently audited.
 
-![Synthetic 3D route](results/synthetic_3d_route.svg)
+![MATLAB 3D cycling route](results/matlab_01_3d_route.png)
 
-![Synthetic elevation and gradient](results/synthetic_elevation_grade.svg)
+![MATLAB elevation and gradient](results/matlab_02_elevation_grade.png)
 
-![Synthetic cycling power and energy](results/synthetic_power_energy.svg)
+![MATLAB modelled cycling power and energy](results/matlab_06_power_energy.png)
+
+The other exported figures are [cumulative distance](results/matlab_03_distance.png), [speed versus time](results/matlab_04_speed_time.png) and [speed versus distance](results/matlab_05_speed_distance.png).
+
+## Additional synthetic previews
+
+The `synthetic_*.svg` figures and corresponding `synthetic_*.png` files are illustrative previews produced separately from MATLAB. Do not confuse them with the six MATLAB-exported graphs or the original ENGG100 assessment outputs.
 
 ## Contents
 
@@ -36,9 +42,8 @@ These figures are **SVG previews generated directly from the included synthetic 
 ├── data/
 │   └── synthetic_ride.gpx    # Fictitious GPX points only
 ├── results/
-│   ├── synthetic_3d_route.svg
-│   ├── synthetic_elevation_grade.svg
-│   ├── synthetic_power_energy.svg
+│   ├── matlab_01_3d_route.png ... matlab_06_power_energy.png
+│   ├── synthetic_*.png / synthetic_*.svg   # Separate previews
 │   └── README.md
 └── docs/
     ├── CREDITS_AND_AI_USE.md
@@ -55,7 +60,7 @@ These figures are **SVG previews generated directly from the included synthetic 
 3. Run `run_cycling_demo.m`.
 4. Inspect the six MATLAB figures saved in `results/`, plus the printed distance/energy estimates.
 
-The main script uses MATLAB's built-in functions and is intended not to require specialist toolboxes. **MATLAB execution has not been tested in this environment**; the geospatial mathematics and preview results have been checked using Python independently.
+The main script uses MATLAB's built-in functions and is intended not to require specialist toolboxes. **The project owner has run the script in MATLAB**, as shown in their Command Window screenshot, and committed its six PNG figures. This assistant has not independently executed MATLAB or visually audited all exported images; numerical/geospatial checks were previously performed with Python.
 
 The example parser expects conventional GPX track-point tags with latitude, longitude, elevation and UTC timestamps. It is not a full XML parser, and other GPX exporters may format data differently.
 
